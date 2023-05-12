@@ -3,7 +3,6 @@ import { useSelector } from "react-redux";
 
 const TodosFooter = () => {
   const todos = useSelector((state) => state.todosReducers);
-  console.log(todos);
 
   return (
     <div className="card-footer">
